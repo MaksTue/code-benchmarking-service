@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+docker-compose.prod.yml
+*.dockerfile
+.dockerignore
+
+# Build outputs
+build/
+dist/
+out/
+
+# React build
+frontend/node_modules/
+frontend/build/
+
+# Backend build
+backend/node_modules/
+backend/dist/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Misc
+*.swp
+*.swo
+*.bak
+Thumbs.db

@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  gcc:
+    image: gcc:latest
+    container_name: gcc
+    volumes:
+      - ./backend:/app
+    command: tail -f /dev/null
